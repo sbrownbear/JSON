@@ -1,107 +1,45 @@
-1. Создать внешний репозиторий c названием JSON.
+`New` - Создать внешний репозиторий c названием JSON.
 
-`New`
+`git clone https://github.com/sbrownbear/JSON.git` - Клонировать репозиторий JSON на локальный компьютер.
 
- 2. Клонировать репозиторий JSON на локальный компьютер.
+`touch new.json` - Внутри локального JSON создать файл “new.json”.
 
-`git clone https://github.com/sbrownbear/JSON.git`
+`git add new.json` - Добавить файл под гит.
 
- 3. Внутри локального JSON создать файл “new.json”.
+`git commit -m 'creat file'` - Закоммитить файл.
 
-`touch new.json`
+`git push` - Отправить файл на внешний GitHub репозиторий.
 
- 4. Добавить файл под гит.
+`vim new.json`;
+`i`;
+`esc`;
+`:wq` - Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
 
-`git add new.json`
+`git commit -am 'modified'`;
+`git push` - Отправить изменения на внешний репозиторий.
 
- 5. Закоммитить файл.
+`touch preferences.json` - Создать файл preferences.json
 
-`git commit -m 'creat file'`
+`vim preference.json`;
+`i`;
+`esc`;
+`:wq` - В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 
- 6. Отправить файл на внешний GitHub репозиторий.
+`vim skills.json`;
+`i`;
+`esc`;
+`:wq` - Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 
-`git push`
+`git add.`;
+`git commit -m 'creat file'`;
+`git push` - Отправить сразу 2 файла на внешний репозиторий.
 
- 7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в 
-формате JSON.
+`edit new file` - На веб интерфейсе создать файл bug_report.json.
 
-<<<<<<< HEAD
-`vim new.json`, 
-`i`,
-`esc`,
-=======
-`vim new.json`
-`i`
-`esc`
->>>>>>> 4ed9a1f206bf1383408ee2f403d279ce14d2eea2
-`:wq`
+`commit file` - Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
- 8. Отправить изменения на внешний репозиторий.
+`edit this file` - На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 
-<<<<<<< HEAD
-`git commit -am 'modified'`,
-=======
-`git commit -am 'modified'`
->>>>>>> 4ed9a1f206bf1383408ee2f403d279ce14d2eea2
-`git push`
+`commit this file` - Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 
- 9. Создать файл preferences.json
-
-`touch preferences.json`
-
- 10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
-
-<<<<<<< HEAD
-`vim preference.json`,
-`i`,
-`esc`,
-=======
-`vim preference.json`
-`i`
-`esc`
->>>>>>> 4ed9a1f206bf1383408ee2f403d279ce14d2eea2
-`:wq`
-
- 11. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
-
-<<<<<<< HEAD
-`vim skills.json`,
-`i`,
-`esc`,
-=======
-`vim skills.json`
-`i`
-`esc`
->>>>>>> 4ed9a1f206bf1383408ee2f403d279ce14d2eea2
-`:wq`
-
- 12. Отправить сразу 2 файла на внешний репозиторий.
-
-<<<<<<< HEAD
-`git add.`,
-`git commit -m 'creat file'`,
-=======
-`git add.`
-`git commit -m 'creat file'`
->>>>>>> 4ed9a1f206bf1383408ee2f403d279ce14d2eea2
-`git push`
-
- 13. На веб интерфейсе создать файл bug_report.json.
-
-`edit new file`
-
- 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-
-`commit file`
-
- 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
-
-`edit this file`
-
- 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-
-`commit this file`
-
- 17. Синхронизировать внешний и локальный репозиторий JSON
-
-`git pull`
+`git pull` - Синхронизировать внешний и локальный репозиторий JSON
