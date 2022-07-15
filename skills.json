@@ -1,13 +1,18 @@
 {
-	"skill_1":"Terminal linux",
-	"skill_2":"JavaSript (основы)",
-	"skill_3":"Postman",
-	"skill_4":"Dev Tools",
-	"skill_5":"Android Studio",
-	"skill_6":"SQL (Select, From, Where, Join)",
-	"skill_7":"Jmeter",
+	"skill_1":"Basic theory (what's testing, documentation, bug reports, methods, areas of testing, etc.)",
+	"skill_2":"Client-server archtecture",
+	"skill_3":"HTTP (methods, response codes)",
+	"skill_4":"JSON, XML (their structure)",
+	"skill_5":"Mobile testing",
+	"skill_6":"Android Studio",
+	"skill_7":"DevTools",
 	"skill_8":"Jira",
 	"skill_9":"Fiddler",
-	"skill_10":"Git/GitHub"
+	"skill_10":"SQL",
+	"skill_11":"JavaSript (Basic)",
+	"skill_12":"Postman",
+	"skill_13":"Jmeter",
+	"skill_14":"Terminal linux",
+	"skill_15":"Git/GitHub"
 }
 
